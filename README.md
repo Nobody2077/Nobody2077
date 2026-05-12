@@ -1,16 +1,45 @@
-## Hi there 👋
+# 👨‍💻 Cristian Yujra
 
-<!--
-**Nobody2077/Nobody2077** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Estudiante de Ingeniería en Sistemas
 
-Here are some ideas to get you started:
+💻 Actualmente aprendiendo:
+- HTML
+- CSS
+- JavaScript
+- Git & GitHub
+- Flutter
+- Laravel
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🚀 Proyectos:
+- tarea-html
+- ejercicio1-js
+
+🌱 Objetivo:
+Mejorar como desarrollador y crear proyectos útiles.
+
+📂 Repositorios:
+- Practicas
+- Tareas
+- Proyectos# 👨‍💻 Cristian Yujra
+
+🎓 Estudiante de Ingeniería en Sistemas
+
+💻 Actualmente aprendiendo:
+- HTML
+- CSS
+- JavaScript
+- Git & GitHub
+- Flutter
+- Laravel
+
+🚀 Proyectos:
+- tarea-html
+- ejercicio1-js
+
+🌱 Objetivo:
+Mejorar como desarrollador y crear proyectos útiles.
+
+📂 Repositorios:
+- Practicas
+- Tareas
+- Proyectos
