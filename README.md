@@ -43,3 +43,7 @@ Mejorar como desarrollador y crear proyectos útiles.
 - Practicas
 - Tareas
 - Proyectos
+
+## 🐍 Contribution Snake
+
+![Snake animation](https://github.com/Nobody2077/Nobody2077/blob/output/github-contribution-grid-snake.svg)
