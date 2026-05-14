@@ -9,7 +9,6 @@
 
 ---
 
-# 💻 Terminal: stack --show
 
 ## 🌐 Frontend & Web
 
