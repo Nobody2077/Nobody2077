@@ -1,48 +1,58 @@
 # 👨‍💻 Cristian Yujra
 
-🎓 Estudiante de Ingeniería en Sistemas
+🎓 Estudiante de Ingeniería en Sistemas  
 
-💻 Actualmente aprendiendo:
-- HTML
-- CSS
-- JavaScript
-- Git & GitHub
-- Flutter
-- Laravel
+🌱 Apasionado por el desarrollo de software, aprendiendo y construyendo proyectos poco a poco 🚀
 
-🚀 Proyectos:
-- tarea-html
-- ejercicio1-js
+---
 
-🌱 Objetivo:
-Mejorar como desarrollador y crear proyectos útiles.
+# 💻 Terminal: stack --show
 
-📂 Repositorios:
-- Practicas
-- Tareas
-- Proyectos# 👨‍💻 Cristian Yujra
+## 🌐 Frontend & Web
 
-🎓 Estudiante de Ingeniería en Sistemas
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-💻 Actualmente aprendiendo:
-- HTML
-- CSS
-- JavaScript
-- Git & GitHub
-- Flutter
-- Laravel
+---
 
-🚀 Proyectos:
-- tarea-html
-- ejercicio1-js
+## 📱 Mobile & Frameworks
 
-🌱 Objetivo:
-Mejorar como desarrollador y crear proyectos útiles.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
-📂 Repositorios:
-- Practicas
-- Tareas
-- Proyectos
+---
+
+## ⚙ Tools & Platforms
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+
+---
+
+# 🚀 Proyectos
+
+📌 Algunos proyectos y prácticas que estoy desarrollando:
+
+- 🧪 tarea-html
+- ⚡ ejercicio1-js
+
+---
+
+# 🌱 Objetivo
+
+Seguir mejorando como desarrollador, aprender nuevas tecnologías y crear proyectos útiles y creativos 💡
+
+---
+
+# 📂 Repositorios
+
+- 📘 Practicas
+- 📝 Tareas
+- 🚀 Proyectos
+
+---
 
 ## 🐍 Contribution Snake
 
