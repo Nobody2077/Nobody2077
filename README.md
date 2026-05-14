@@ -50,6 +50,16 @@ Seguir mejorando como desarrollador, aprender nuevas tecnologías y crear proyec
 
 ---
 
+## Check out my Social Media
+
+   <a href="https://www.instagram.com/_gandicuss_?igsh=MWkxeTdraWptdjViaw%3D%3D&utm_source=qr">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
+</a>
+<a href="https://www.tiktok.com/@nobbodii?_r=1&_t=ZS-96M8QFXEvf2" >
+    <img src="https://img.shields.io/badge/TikTok-%23000000.svg?style=for-the-badge&logo=TikTok&logoColor=white" alt="Tiktok">
+</a>
+
+
 ## 🐍 Contribution Snake
 
 ![Snake animation](https://github.com/Nobody2077/Nobody2077/blob/output/github-contribution-grid-snake.svg)
