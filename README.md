@@ -21,7 +21,6 @@
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 
----
 
 ## ⚙ Tools & Platforms
 
@@ -29,7 +28,6 @@
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
----
 
 # 🚀 Proyectos
 
@@ -38,7 +36,6 @@
 - 🧪 tarea-html
 - ⚡ ejercicio1-js
 
----
 
 # 🌱 Objetivo
 
