@@ -5,7 +5,7 @@
 
 🎓 Estudiante de Ingeniería en Sistemas  
 
-🌱 Apasionado por el desarrollo de software, aprendiendo y construyendo proyectos poco a poco 🚀
+🌱 Apasionado por el desarrollo de software, aprendiendo y construyendo proyectos poco a poco 
 
 ---
 
