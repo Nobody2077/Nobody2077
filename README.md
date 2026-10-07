@@ -1,8 +1,6 @@
 <div align="center">
 
-# ¡Hola! Soy Juan Cristian <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
-
-### Desarrollador móvil junior · Flutter & Dart · Estudiante de Ingeniería de Sistemas
+<img src="./banner.svg" width="100%" alt="Banner HUD: Juan Cristian Yujra, desarrollador móvil">
 
 Construyo apps Android y experiencias interactivas: desde un HUD de cámara con visión por computadora
 **100 % on-device** hasta un videojuego web inspirado en la cultura aymara.
