@@ -116,7 +116,7 @@ la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el
 - Crear soluciones tecnológicas para problemas de mi comunidad.
 
 ---
-
+<div align="center">
 ## 📫 Contacto
 
 <a href="mailto:juancristianyujraquispe@gmail.com">
@@ -131,12 +131,8 @@ la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el
 <a href="https://www.tiktok.com/@nobbodii">
   <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok">
 </a>
-
+</div>
 ---
-
-## 🐍 Mis contribuciones
-
-![Animación de la serpiente comiendo mis contribuciones](https://raw.githubusercontent.com/Nobody2077/Nobody2077/output/github-contribution-grid-snake.svg)
 
 <div align="center">
 
