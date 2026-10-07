@@ -2,10 +2,9 @@
 
 <img src="./banner.svg" width="100%" alt="Banner HUD: Juan Cristian Yujra, desarrollador móvil">
 
-Construyo apps Android y experiencias interactivas: desde un HUD de cámara con visión por computadora
-**100 % on-device** hasta un videojuego web inspirado en la cultura aymara.
+Construyo apps Android y experiencias interactivas.
 
-📍 Bolivia · 🚀 Aprendiendo y construyendo constantemente
+📍 Bolivia · Aprendiendo y construyendo constantemente
 
 </div>
 
