@@ -1,0 +1,141 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Banner HUD de escáner · paleta de Simulador_GantzScannerGun (cian = estructura, ámbar = valores) -->
+  <defs>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#3D9DB8" stroke-width="0.5" opacity="0.18"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#74E2F7" stop-opacity="0"/>
+      <stop offset="1" stop-color="#74E2F7" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0.55" stop-color="#061013" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.7"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="900" height="300" rx="12"/></clipPath>
+  </defs>
+
+  <style>
+    text { font-family: Consolas, 'SF Mono', Menlo, 'DejaVu Sans Mono', 'Courier New', monospace; }
+    .lbl { fill: #3D9DB8; font-size: 13px; letter-spacing: 1.5px; }
+    .val { fill: #FFC53A; font-size: 15px; }
+    .cyan { fill: #74E2F7; }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <!-- Fondo -->
+    <rect width="900" height="300" fill="#061013"/>
+    <rect width="900" height="300" fill="#0C4C66" opacity="0.25"/>
+    <rect width="900" height="300" fill="url(#grid)"/>
+
+    <!-- Barrido de escaneo -->
+    <rect x="0" y="0" width="900" height="40" fill="url(#sweep)">
+      <animate attributeName="y" values="-40;300" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Barra superior -->
+    <text x="20" y="24" class="cyan" font-size="12" letter-spacing="2">◤ SCANNER // NOBODY2077</text>
+    <g>
+      <circle cx="722" cy="20" r="4" fill="#FFB01F" class="blink"/>
+      <text x="880" y="24" fill="#FFC53A" font-size="12" letter-spacing="2" text-anchor="end">REC · ON-DEVICE</text>
+    </g>
+    <line x1="20" y1="36" x2="880" y2="36" stroke="#74E2F7" stroke-width="1" opacity="0.35"/>
+
+    <!-- ===== Retícula ===== -->
+    <g transform="translate(170 162)">
+      <!-- Silueta -->
+      <g fill="none" stroke="#74E2F7" stroke-width="1.5" opacity="0.55" stroke-dasharray="4 3">
+        <circle cx="0" cy="-22" r="19"/>
+        <path d="M-46 62 C-44 18 -26 6 0 6 C26 6 44 18 46 62"/>
+      </g>
+
+      <!-- Anillo exterior que gira -->
+      <g>
+        <circle r="98" fill="none" stroke="#3D9DB8" stroke-width="1" stroke-dasharray="2 8" opacity="0.8"/>
+        <path d="M0 -110 V-96 M0 96 V110 M-110 0 H-96 M96 0 H110" stroke="#74E2F7" stroke-width="2"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- Anillo interior con marcas, gira al revés -->
+      <g>
+        <circle r="72" fill="none" stroke="#74E2F7" stroke-width="1" opacity="0.35"/>
+        <path d="M-72 0 A72 72 0 0 1 -36 -62.4" fill="none" stroke="#74E2F7" stroke-width="2.5"/>
+        <path d="M72 0 A72 72 0 0 1 36 62.4" fill="none" stroke="#74E2F7" stroke-width="2.5"/>
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- Mira central -->
+      <path d="M-20 0 H-6 M6 0 H20 M0 -20 V-6 M0 6 V20" stroke="#EAF9FF" stroke-width="1.5"/>
+
+      <!-- Esquinas que se cierran: buscando → adquiriendo → trabado (ciclo de 6 s) -->
+      <g fill="none" stroke-width="3" filter="url(#glow)">
+        <path d="M-56 -40 V-62 H-34 M34 -62 H56 V-40 M56 40 V62 H34 M-34 62 H-56 V40"/>
+        <animate attributeName="stroke" values="#3D9DB8;#3D9DB8;#74E2F7;#FFC53A;#FFC53A" keyTimes="0;0.33;0.62;0.67;1" dur="6s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="scale" values="1.65;1.65;1;1" keyTimes="0;0.33;0.64;1" dur="6s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- Destello al trabar -->
+      <circle r="8" fill="#FFC53A" opacity="0">
+        <animate attributeName="opacity" values="0;0;0.9;0.25;0.25" keyTimes="0;0.66;0.68;0.8;1" dur="6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Estado del rastreador -->
+    <g font-size="13" letter-spacing="2" text-anchor="middle">
+      <text x="170" y="290" fill="#3D9DB8" opacity="1">BUSCANDO...
+        <animate attributeName="opacity" values="1;0" keyTimes="0;0.33" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="170" y="290" fill="#74E2F7" opacity="0">ADQUIRIENDO
+        <animate attributeName="opacity" values="0;1;0" keyTimes="0;0.33;0.67" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="170" y="290" fill="#FFC53A" opacity="0" font-weight="bold">◉ OBJETIVO TRABADO
+        <animate attributeName="opacity" values="0;1" keyTimes="0;0.67" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- Separador -->
+    <line x1="345" y1="56" x2="345" y2="272" stroke="#74E2F7" stroke-width="1" opacity="0.3"/>
+    <path d="M341 56 H349 M341 272 H349" stroke="#74E2F7" stroke-width="1" opacity="0.6"/>
+
+    <!-- ===== Ficha del objetivo ===== -->
+    <text x="372" y="72" class="lbl">OBJETIVO IDENTIFICADO</text>
+    <text x="880" y="72" fill="#FFC53A" font-size="13" text-anchor="end" letter-spacing="1">DIST ~2.4 m</text>
+    <text x="372" y="108" fill="#EAF9FF" font-size="30" font-weight="bold" letter-spacing="1" filter="url(#glow)">JUAN CRISTIAN YUJRA</text>
+    <text x="372" y="134" class="cyan" font-size="15">Desarrollador móvil · Ingeniería de Sistemas</text>
+    <line x1="372" y1="150" x2="880" y2="150" stroke="#3D9DB8" stroke-width="1" stroke-dasharray="3 4" opacity="0.6"/>
+
+    <text x="372" y="176" class="lbl">MÓVIL</text>
+    <text x="498" y="176" class="val">Flutter · Dart · ML Kit</text>
+    <text x="372" y="201" class="lbl">WEB</text>
+    <text x="498" y="201" class="val">Laravel · PHP · JavaScript</text>
+    <text x="372" y="226" class="lbl">UBICACIÓN</text>
+    <text x="498" y="226" class="val">Bolivia</text>
+    <text x="372" y="251" class="lbl">ESTADO</text>
+    <text x="498" y="251" class="val">Abierto a colaborar<tspan class="blink"> ▌</tspan></text>
+
+    <!-- Barra de análisis, sincronizada con el ciclo de la retícula -->
+    <text x="372" y="282" class="lbl" font-size="11">ANÁLISIS</text>
+    <rect x="460" y="273" width="420" height="10" fill="none" stroke="#3D9DB8" stroke-width="1" opacity="0.7"/>
+    <rect x="462" y="275" width="0" height="6" fill="#74E2F7">
+      <animate attributeName="width" values="0;416;416" keyTimes="0;0.67;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#74E2F7;#FFC53A" keyTimes="0;0.67" calcMode="discrete" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Escala vertical a la derecha -->
+    <g stroke="#3D9DB8" stroke-width="1" opacity="0.5">
+      <path d="M893 60 V260 M887 60 H893 M889 85 H893 M889 110 H893 M887 135 H893 M889 160 H893 M889 185 H893 M887 210 H893 M889 235 H893 M887 260 H893"/>
+    </g>
+
+    <rect width="900" height="300" fill="url(#vignette)"/>
+  </g>
+
+  <!-- Marco -->
+  <rect x="0.5" y="0.5" width="899" height="299" rx="12" fill="none" stroke="#74E2F7" stroke-width="1" opacity="0.4"/>
+  <path d="M2 30 V2 H30 M870 2 H898 V30 M898 270 V298 H870 M30 298 H2 V270" fill="none" stroke="#74E2F7" stroke-width="2.5"/>
+</svg>
