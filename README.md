@@ -8,19 +8,19 @@ Construyo apps Android y experiencias interactivas.
 
 ---
 
-## 👨‍💻 Sobre mí
+## <img src="https://api.iconify.design/tabler/user.svg?color=%233D9DB8" width="24" align="top"> Sobre mí
 
-- 🎓 Estudiante de Ingeniería de Sistemas.
-- 📱 Me especializo en **apps móviles con Flutter**; también hago web con **Laravel** y **JavaScript**.
-- 🔭 Últimamente: visión por computadora en el móvil con **ML Kit** y videojuegos web.
-- 🧪 Me importan la arquitectura feature-first, la persistencia offline y las pruebas automatizadas.
-- 🤝 Abierto a colaborar en proyectos y a mi primera experiencia profesional.
+- Estudiante de Ingeniería de Sistemas.
+- Me especializo en **apps móviles con Flutter**; también hago web con **Laravel** y **JavaScript**.
+- Últimamente: visión por computadora en el móvil con **ML Kit** y videojuegos web.
+- Me importan la arquitectura feature-first, la persistencia offline y las pruebas automatizadas.
+- Abierto a colaborar en proyectos y a mi primera experiencia profesional.
 
 ---
 
-## 🛠️ Tecnologías
+## <img src="https://api.iconify.design/tabler/code.svg?color=%233D9DB8" width="24" align="top"> Tecnologías
 
-**📱 Móvil**
+**<img src="https://api.iconify.design/tabler/device-mobile.svg?color=%233D9DB8" width="18" align="top"> Móvil**
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -30,7 +30,7 @@ Construyo apps Android y experiencias interactivas.
 
 <p align="center"><i>También uso: Riverpod · Hive · GoRouter · ML Kit</i></p>
 
-**🌐 Web y backend**
+**<img src="https://api.iconify.design/tabler/world.svg?color=%233D9DB8" width="18" align="top"> Web y backend**
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -38,7 +38,7 @@ Construyo apps Android y experiencias interactivas.
   </a>
 </p>
 
-**🗄️ Bases de datos**
+**<img src="https://api.iconify.design/tabler/database.svg?color=%233D9DB8" width="18" align="top"> Bases de datos**
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -46,7 +46,7 @@ Construyo apps Android y experiencias interactivas.
   </a>
 </p>
 
-**⚙️ Herramientas**
+**<img src="https://api.iconify.design/tabler/tool.svg?color=%233D9DB8" width="18" align="top"> Herramientas**
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -56,7 +56,7 @@ Construyo apps Android y experiencias interactivas.
 
 ---
 
-## 📊 GitHub Stats
+## <img src="https://api.iconify.design/tabler/chart-bar.svg?color=%233D9DB8" width="24" align="top"> GitHub Stats
 
 <div align="center">
   <picture>
@@ -71,18 +71,18 @@ Construyo apps Android y experiencias interactivas.
 
 ---
 
-## 🚀 Proyectos destacados
+## <img src="https://api.iconify.design/tabler/rocket.svg?color=%233D9DB8" width="24" align="top"> Proyectos destacados
 
-### 🎯 Weapon HUD Scanner
+### <img src="https://api.iconify.design/tabler/target.svg?color=%233D9DB8" width="20" align="top"> Weapon HUD Scanner
 
 App Android que simula el HUD de escaneo del arma de *Gantz:O* sobre la cámara en vivo.
 Todo se procesa **en el dispositivo**: ningún cuadro de cámara sale del teléfono y funciona sin red.
 
-- 👤 Detección de rostros con ML Kit y encuadre del cuerpo por proporción antropométrica.
-- 🔒 Máquina de estados (buscando → adquiriendo → trabado → señal perdida) con histéresis.
-- 📏 Estimación de distancia con modelo pinhole a partir del ancho del rostro.
-- ✏️ Contorno del objetivo con *marching squares* sobre la máscara de segmentación.
-- 🔊 Sonido y vibración al adquirir, trabar y perder el objetivo.
+- Detección de rostros con ML Kit y encuadre del cuerpo por proporción antropométrica.
+- Máquina de estados (buscando → adquiriendo → trabado → señal perdida) con histéresis.
+- Estimación de distancia con modelo pinhole a partir del ancho del rostro.
+- Contorno del objetivo con *marching squares* sobre la máscara de segmentación.
+- Sonido y vibración al adquirir, trabar y perder el objetivo.
 
 **Tecnologías:** Flutter · Dart · ML Kit · CustomPainter
 
@@ -90,16 +90,16 @@ Todo se procesa **en el dispositivo**: ningún cuadro de cámara sale del teléf
 
 ---
 
-### 🌄 Yatiri · La mesa del equilibrio
+### <img src="https://api.iconify.design/tabler/mountain.svg?color=%233D9DB8" width="20" align="top"> Yatiri · La mesa del equilibrio
 
 Mini videojuego web inspirado en la cultura aymara de La Paz y El Alto. Eres un **yatiri** que debe reunir
 la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el equilibrio a la Pachamama.
 
-- 🛍️ Nivel 1: Mercado de las Brujas, recoge ingredientes esquivando a los Anchanchus.
-- 🌨️ Nivel 2: La Ceja de El Alto, con enemigos que persiguen y granizo.
-- 🍃 Nivel 3: lectura de la coca, un juego de memoria con símbolos andinos.
-- 🏆 Puntaje y ranking de los 5 mejores guardado en el navegador.
-- 👥 Proyecto en equipo · funciona sin instalación ni internet.
+- Nivel 1: Mercado de las Brujas, recoge ingredientes esquivando a los Anchanchus.
+- Nivel 2: La Ceja de El Alto, con enemigos que persiguen y granizo.
+- Nivel 3: lectura de la coca, un juego de memoria con símbolos andinos.
+- Puntaje y ranking de los 5 mejores guardado en el navegador.
+- Proyecto en equipo · funciona sin instalación ni internet.
 
 **Tecnologías:** HTML5 · CSS3 · JavaScript · jQuery
 
@@ -108,7 +108,7 @@ la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el
 
 ---
 
-## 🎯 Objetivos actuales
+## <img src="https://api.iconify.design/tabler/flag.svg?color=%233D9DB8" width="24" align="top"> Objetivos actuales
 
 - Publicar mi primera app en Google Play.
 - Profundizar en APIs REST: consumirlas desde Flutter y construirlas con Laravel.
