@@ -4,8 +4,6 @@
 
 Construyo apps Android y experiencias interactivas.
 
-📍 Bolivia · Aprendiendo y construyendo constantemente
-
 </div>
 
 ---
