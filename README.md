@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=32&duration=2500&pause=1200&color=3D9DB8&center=true&vCenter=true&width=600&height=60&lines=%C2%A1Hola!;Bienvenido+a+mi+perfil" alt="¡Hola! Bienvenido a mi perfil">
+
 <img src="./banner.svg" width="100%" alt="Banner HUD: Juan Cristian Yujra, desarrollador móvil">
 
 Construyo apps Android y experiencias interactivas.
@@ -116,8 +118,10 @@ la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el
 - Crear soluciones tecnológicas para problemas de mi comunidad.
 
 ---
+
 <div align="center">
-## 📫 Contacto
+
+## <img src="https://api.iconify.design/tabler/mail.svg?color=%233D9DB8" width="24" align="top"> Contacto
 
 <a href="mailto:juancristianyujraquispe@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
@@ -131,11 +135,13 @@ la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el
 <a href="https://www.tiktok.com/@nobbodii">
   <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok">
 </a>
+
 </div>
+
 ---
 
 <div align="center">
 
-### Gracias por visitar mi perfil 👨‍💻
+### <img src="https://api.iconify.design/tabler/heart-handshake.svg?color=%233D9DB8" width="20" align="top"> Gracias por visitar mi perfil
 
 </div>
