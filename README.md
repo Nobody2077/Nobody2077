@@ -108,6 +108,7 @@ la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el
 
 **Tecnologías:** HTML5 · CSS3 · JavaScript · jQuery
 
+[![Jugar ahora](https://img.shields.io/badge/▶_Jugar_ahora-E8A33D?style=for-the-badge&logoColor=white)](https://nobody2077.github.io/-Aprendizaje-Basado-en-Retos-Videojuego/)
 [![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/-Aprendizaje-Basado-en-Retos-Videojuego)
 
 ---
@@ -147,4 +148,3 @@ la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el
 ### Gracias por visitar mi perfil 👨‍💻
 
 </div>
-
