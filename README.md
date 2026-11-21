@@ -75,6 +75,28 @@ Construyo apps Android y experiencias interactivas.
 
 ## <img src="https://api.iconify.design/tabler/rocket.svg?color=%233D9DB8" width="24" align="top"> Proyectos destacados
 
+### <img src="https://api.iconify.design/tabler/notebook.svg?color=%233D9DB8" width="20" align="top"> Bitácora RPG Personal
+
+App Android que convierte la organización de mi vida en un **juego de rol** cyberpunk: las tareas son misiones,
+completarlas da XP y cada área de la vida (estudios, salud, hogar, proyectos, personal) sube de nivel por separado.
+La uso todos los días en mi tablet.
+
+<p align="center">
+  <img src="./proyectos/bitacora.svg" width="100%" alt="Bitácora RPG: módulos Personaje, Misiones, Economía y Progreso">
+</p>
+
+- Misiones únicas y recurrentes con recordatorios, cronómetro y un tablón diario.
+- Economía personal con libro contable, reservas y una lista de deseos conectada al saldo.
+- Diario con estados de ánimo y fotos, enlazado a misiones y movimientos.
+- **Privada y sin internet:** SQLite cifrado con clave en el Android Keystore, PIN y biometría.
+- Arquitectura *feature-first* con más de 400 pruebas automatizadas.
+
+**Tecnologías:** Flutter · Dart · Riverpod · Drift · Kotlin
+
+[![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/Bitacora_movil)
+
+---
+
 ### <img src="https://api.iconify.design/tabler/hand-stop.svg?color=%233D9DB8" width="20" align="top"> Gesture Puppet
 
 Un personaje 3D que obedece los gestos de mi mano a través de la cámara web, unido a mis dedos con **hilos de marioneta**.
