@@ -96,20 +96,24 @@ Todo corre en el navegador y ningún cuadro de la cámara sale de la computadora
 
 ---
 
-### <img src="https://api.iconify.design/tabler/target.svg?color=%233D9DB8" width="20" align="top"> Weapon HUD Scanner
+### <img src="https://api.iconify.design/tabler/device-tablet.svg?color=%233D9DB8" width="20" align="top"> UltramarineGun
 
-App Android que simula el HUD de escaneo del arma de *Gantz:O* sobre la cámara en vivo.
-Todo se procesa **en el dispositivo**: ningún cuadro de cámara sale del teléfono y funciona sin red.
+Simulador de **bólter** de Warhammer 40K para tablet Android: la tablet se sostiene en horizontal como un arma
+y responde a los movimientos reales gracias a sus sensores.
 
-- Detección de rostros con ML Kit y encuadre del cuerpo por proporción antropométrica.
-- Máquina de estados (buscando → adquiriendo → trabado → señal perdida) con histéresis.
-- Estimación de distancia con modelo pinhole a partir del ancho del rostro.
-- Contorno del objetivo con *marching squares* sobre la máscara de segmentación.
-- Sonido y vibración al adquirir, trabar y perder el objetivo.
+<p align="center">
+  <img src="./proyectos/ultramarinegun.svg" width="100%" alt="UltramarineGun: el modelo en Blender, el disparo y la recarga en Godot">
+</p>
 
-**Tecnologías:** Flutter · Dart · ML Kit · CustomPainter
+- **Disparar** con un tirón de la tablet (acelerómetro) o con el pulgar.
+- **Recargar** inclinando la tablet (giroscopio): sale el cargador y se acciona la palanca.
+- El arma «habla» con el texto a voz de Android.
+- Fogonazo, humo, casquillos y un cañón que se calienta con cada disparo.
+- Todo el modelo 3D se genera desde cero con **un solo script de Python** en Blender: malla, texturas PBR horneadas y animaciones.
 
-[![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/Simulador_GantzScannerGun)
+**Tecnologías:** Blender 4.5 · Python · Godot 4.7 · GDScript · Android
+
+[![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/UltramarineGun)
 
 ---
 
