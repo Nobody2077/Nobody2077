@@ -75,6 +75,27 @@ Construyo apps Android y experiencias interactivas.
 
 ## <img src="https://api.iconify.design/tabler/rocket.svg?color=%233D9DB8" width="24" align="top"> Proyectos destacados
 
+### <img src="https://api.iconify.design/tabler/hand-stop.svg?color=%233D9DB8" width="20" align="top"> Gesture Puppet
+
+Un personaje 3D que obedece los gestos de mi mano a través de la cámara web, unido a mis dedos con **hilos de marioneta**.
+Todo corre en el navegador y ningún cuadro de la cámara sale de la computadora.
+
+<p align="center">
+  <img src="./proyectos/gesture-puppet.svg" width="100%" alt="Gesture Puppet: con la palma abierta el agente saluda y con el índice corre hacia donde apunto">
+</p>
+
+- ✋ Palma abierta: saluda · ☝ índice: corre hacia donde apunto · ✌ dos dedos: camina · ✊ puño: golpea · 👌 pinza: salta.
+- Reconocimiento de gestos con geometría de los 21 puntos de la mano, **sin entrenar ningún modelo**.
+- Filtro temporal de 3 cuadros para que el personaje no tiemble con los errores sueltos del rastreo.
+- Animaciones de Mixamo mezcladas con `AnimationMixer`, sin el desplazamiento de cadera para que el movimiento lo controle el código.
+- Hilos dibujados en un canvas 2D desde cada yema hasta la cabeza, las manos y los pies del personaje.
+
+**Tecnologías:** JavaScript · MediaPipe · three.js · Canvas 2D
+
+[![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/gesture-puppet)
+
+---
+
 ### <img src="https://api.iconify.design/tabler/target.svg?color=%233D9DB8" width="20" align="top"> Weapon HUD Scanner
 
 App Android que simula el HUD de escaneo del arma de *Gantz:O* sobre la cámara en vivo.
