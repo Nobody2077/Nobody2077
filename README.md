@@ -92,6 +92,49 @@ Construyo apps Android y experiencias interactivas.
 
 ---
 
+## <img src="https://api.iconify.design/tabler/tools.svg?color=%233D9DB8" width="24" align="top"> En desarrollo
+
+### <img src="https://api.iconify.design/tabler/message-chatbot.svg?color=%233D9DB8" width="20" align="top"> Tami · Asistente virtual con IA local
+
+Orientadora vocacional con **avatar 3D y voz** que conversa con los postulantes por micrófono o teclado.
+Todo corre **en la propia PC, sin internet**: el modelo de lenguaje, la memoria, el reconocimiento de voz y la voz.
+
+<p align="center">
+  <img src="./proyectos/tami.jpg" width="100%" alt="Tami: pantalla del stand con la orientadora virtual invitando a conversar">
+</p>
+
+- LLM local (**Qwen** sobre **llama.cpp** con Vulkan) en una GPU de 8 GB.
+- Memoria **RAG** con Chroma: más de 8 000 fragmentos recolectados con **Crawl4AI**.
+- Escucha con **Whisper** y habla con **Kokoro**; la boca del avatar se mueve con el volumen de la voz.
+- Avatar **VRM** con gestos, fichas de carrera con QR y un **modo expositora** que explica cómo funciona.
+- Creado y desarrollado por mí · se presenta en la **Feria Unifranz 2026** (El Alto, 25 de noviembre) junto a Brayan Quispe Mamani.
+
+**Tecnologías:** Electron · three.js · VRM · Python · llama.cpp · Whisper · Kokoro · Chroma
+
+[![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/asistente-virtual)
+
+---
+
+### <img src="https://api.iconify.design/tabler/plane.svg?color=%233D9DB8" width="20" align="top"> Escuadrón Bigotes · próximamente en Google Play
+
+Combate aéreo para celulares: un **hámster aviador** pilota su biplano en una guerra entre naciones de hámsters
+inspirada en la Primera Guerra Mundial. Juego original: personajes, naciones y emblemas propios.
+
+<p align="center">
+  <img src="./proyectos/escuadron-bigotes.jpg" width="100%" alt="Escuadrón Bigotes: el hámster persigue a un biplano enemigo entre las nubes">
+</p>
+
+- Modos misión y supervivencia por oleadas, con ases enemigos.
+- Ocho aviones en alta definición (cuatro propios y cuatro enemigos) inspirados en cazas reales, con mejoras y fichas históricas.
+- Piloto personalizable, clima con tormentas y rayos, y progreso con bellotas y niveles.
+- Modelos hechos en Blender con scripts de Python.
+
+**Tecnologías:** Godot 4.7 · GDScript · Blender · Python · Android
+
+[![Ver capturas](https://img.shields.io/badge/Ver_capturas-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/escuadron-bigotes)
+
+---
+
 ## <img src="https://api.iconify.design/tabler/rocket.svg?color=%233D9DB8" width="24" align="top"> Proyectos destacados
 
 ### <img src="https://api.iconify.design/tabler/notebook.svg?color=%233D9DB8" width="20" align="top"> Bitácora RPG Personal
@@ -194,49 +237,6 @@ la **mesa** de ofrenda, leer la **coca** y quemar la **wajt'a** para devolver el
 
 [![Jugar ahora](https://img.shields.io/badge/▶_Jugar_ahora-E8A33D?style=for-the-badge&logoColor=white)](https://nobody2077.github.io/-Aprendizaje-Basado-en-Retos-Videojuego/)
 [![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/-Aprendizaje-Basado-en-Retos-Videojuego)
-
----
-
-## <img src="https://api.iconify.design/tabler/tools.svg?color=%233D9DB8" width="24" align="top"> En desarrollo
-
-### <img src="https://api.iconify.design/tabler/message-chatbot.svg?color=%233D9DB8" width="20" align="top"> Tami · Asistente virtual con IA local
-
-Orientadora vocacional con **avatar 3D y voz** que conversa con los postulantes por micrófono o teclado.
-Todo corre **en la propia PC, sin internet**: el modelo de lenguaje, la memoria, el reconocimiento de voz y la voz.
-
-<p align="center">
-  <img src="./proyectos/tami.jpg" width="100%" alt="Tami: pantalla del stand con la orientadora virtual invitando a conversar">
-</p>
-
-- LLM local (**Qwen** sobre **llama.cpp** con Vulkan) en una GPU de 8 GB.
-- Memoria **RAG** con Chroma: más de 8 000 fragmentos recolectados con **Crawl4AI**.
-- Escucha con **Whisper** y habla con **Kokoro**; la boca del avatar se mueve con el volumen de la voz.
-- Avatar **VRM** con gestos, fichas de carrera con QR y un **modo expositora** que explica cómo funciona.
-- Creado y desarrollado por mí · se presenta en la **Feria Unifranz 2026** (El Alto, 25 de noviembre) junto a Brayan Quispe Mamani.
-
-**Tecnologías:** Electron · three.js · VRM · Python · llama.cpp · Whisper · Kokoro · Chroma
-
-[![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/asistente-virtual)
-
----
-
-### <img src="https://api.iconify.design/tabler/plane.svg?color=%233D9DB8" width="20" align="top"> Escuadrón Bigotes · próximamente en Google Play
-
-Combate aéreo para celulares: un **hámster aviador** pilota su biplano en una guerra entre naciones de hámsters
-inspirada en la Primera Guerra Mundial. Juego original: personajes, naciones y emblemas propios.
-
-<p align="center">
-  <img src="./proyectos/escuadron-bigotes.jpg" width="100%" alt="Escuadrón Bigotes: el hámster persigue a un biplano enemigo entre las nubes">
-</p>
-
-- Modos misión y supervivencia por oleadas, con ases enemigos.
-- Ocho aviones en alta definición (cuatro propios y cuatro enemigos) inspirados en cazas reales, con mejoras y fichas históricas.
-- Piloto personalizable, clima con tormentas y rayos, y progreso con bellotas y niveles.
-- Modelos hechos en Blender con scripts de Python.
-
-**Tecnologías:** Godot 4.7 · GDScript · Blender · Python · Android
-
-[![Ver capturas](https://img.shields.io/badge/Ver_capturas-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/escuadron-bigotes)
 
 ---
 
