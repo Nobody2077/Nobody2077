@@ -139,6 +139,27 @@ y responde a los movimientos reales gracias a sus sensores.
 
 ---
 
+### <img src="https://api.iconify.design/tabler/scan-eye.svg?color=%233D9DB8" width="20" align="top"> Toy Detector · YOLO
+
+App Android que reconoce **dos juguetes en tiempo real** con la cámara. Entrené el modelo yo mismo con
+**transfer learning**: YOLOv8 preentrenado, ajustado con un dataset propio. Todo corre en el dispositivo, sin internet.
+
+<p align="center">
+  <img src="./proyectos/toy-detector.svg" width="100%" alt="Toy Detector: el luchador y el rescatista detectados con más de 90 % de confianza">
+</p>
+
+- Dataset propio de 162 imágenes etiquetadas en Roboflow.
+- Fine-tuning de YOLOv8n en Google Colab (GPU T4): mAP50 0.995 en validación.
+- Exportado a LiteRT (TensorFlow Lite) y ejecutado en Flutter a ~10 FPS en tablet.
+- Confianza ajustable, linterna, cambio de cámara y carga de modelos nuevos sin recompilar.
+
+**Tecnologías:** Flutter · Dart · YOLOv8 · Python · Roboflow · LiteRT
+
+[![Descargar APK](https://img.shields.io/badge/▶_Descargar_APK-E8A33D?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Nobody2077/toy-detector-yolo/releases/latest)
+[![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/toy-detector-yolo)
+
+---
+
 ### <img src="https://api.iconify.design/tabler/mountain.svg?color=%233D9DB8" width="20" align="top"> Yatiri · La mesa del equilibrio
 
 Mini videojuego web inspirado en la cultura aymara de La Paz y El Alto. Eres un **yatiri** que debe reunir
