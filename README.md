@@ -14,9 +14,10 @@ Construyo apps Android y experiencias interactivas.
 
 - Estudiante de Ingeniería de Sistemas.
 - Me especializo en **apps móviles con Flutter**; también hago web con **Laravel** y **JavaScript**.
-- Últimamente: visión por computadora en el móvil con **ML Kit** y videojuegos web.
-- Me importan la arquitectura feature-first, la persistencia offline y las pruebas automatizadas.
-- Abierto a colaborar en proyectos y a mi primera experiencia profesional.
+- **Visión por computadora:** entreno mis propios modelos (**YOLO**) y uso **MediaPipe** para controlar personajes 3D con el cuerpo y las manos.
+- **Videojuegos y 3D:** **Godot** para móvil y **Blender** para modelado, con scripts de Python.
+- Me importan la arquitectura feature-first, que las apps funcionen sin internet y las pruebas automatizadas.
+- Abierto a colaborar en proyectos.
 
 ---
 
@@ -26,17 +27,35 @@ Construyo apps Android y experiencias interactivas.
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=flutter,dart,androidstudio" />
+    <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,androidstudio" />
   </a>
 </p>
 
-<p align="center"><i>También uso: Riverpod · Hive · GoRouter · ML Kit</i></p>
+<p align="center"><i>También uso: Riverpod · Drift · GoRouter · ML Kit</i></p>
 
 **<img src="https://api.iconify.design/tabler/world.svg?color=%233D9DB8" width="18" align="top"> Web y backend**
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,js,jquery,html,css" />
+    <img src="https://skillicons.dev/icons?i=php,laravel,js,threejs,html,css" />
+  </a>
+</p>
+
+**<img src="https://api.iconify.design/tabler/brain.svg?color=%233D9DB8" width="18" align="top"> IA y visión por computadora**
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow" />
+  </a>
+</p>
+
+<p align="center"><i>También uso: YOLO · MediaPipe · Roboflow · Google Colab</i></p>
+
+**<img src="https://api.iconify.design/tabler/device-gamepad-2.svg?color=%233D9DB8" width="18" align="top"> Juegos y 3D**
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=godot,blender" />
   </a>
 </p>
 
@@ -44,7 +63,7 @@ Construyo apps Android y experiencias interactivas.
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=mysql,firebase" />
+    <img src="https://skillicons.dev/icons?i=mysql,sqlite,firebase" />
   </a>
 </p>
 
@@ -52,7 +71,7 @@ Construyo apps Android y experiencias interactivas.
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode" />
+    <img src="https://skillicons.dev/icons?i=git,github,vscode" />
   </a>
 </p>
 
