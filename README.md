@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=32&duration=2500&pause=1200&color=3D9DB8&center=true&vCenter=true&width=600&height=60&lines=%C2%A1Hola!;Bienvenido+a+mi+perfil" alt="¡Hola! Bienvenido a mi perfil">
 
-<img src="./banner.svg" width="100%" alt="Banner HUD: Juan Cristian Yujra, desarrollador móvil">
+<img src="./banner.svg" width="100%" alt="Banner HUD: Juan Cristian Yujra, móvil, IA y videojuegos">
 
 Construyo apps Android y experiencias interactivas.
 

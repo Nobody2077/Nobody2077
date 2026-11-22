@@ -107,17 +107,19 @@
     <text x="372" y="72" class="lbl">OBJETIVO IDENTIFICADO</text>
     <text x="880" y="72" fill="#FFC53A" font-size="13" text-anchor="end" letter-spacing="1">DIST ~2.4 m</text>
     <text x="372" y="108" fill="#EAF9FF" font-size="30" font-weight="bold" letter-spacing="1" filter="url(#glow)">JUAN CRISTIAN YUJRA</text>
-    <text x="372" y="134" class="cyan" font-size="15">Desarrollador móvil · Ingeniería de Sistemas</text>
+    <text x="372" y="134" class="cyan" font-size="15">Móvil · IA · Videojuegos · Ingeniería de Sistemas</text>
     <line x1="372" y1="150" x2="880" y2="150" stroke="#3D9DB8" stroke-width="1" stroke-dasharray="3 4" opacity="0.6"/>
 
-    <text x="372" y="176" class="lbl">MÓVIL</text>
-    <text x="498" y="176" class="val">Flutter · Dart · ML Kit</text>
-    <text x="372" y="201" class="lbl">WEB</text>
-    <text x="498" y="201" class="val">Laravel · PHP · JavaScript</text>
-    <text x="372" y="226" class="lbl">UBICACIÓN</text>
-    <text x="498" y="226" class="val">Bolivia</text>
-    <text x="372" y="251" class="lbl">ESTADO</text>
-    <text x="498" y="251" class="val">Abierto a colaborar<tspan class="blink"> ▌</tspan></text>
+    <text x="372" y="173" class="lbl">MÓVIL</text>
+    <text x="498" y="173" class="val">Flutter · Dart · Kotlin</text>
+    <text x="372" y="194" class="lbl">IA</text>
+    <text x="498" y="194" class="val">LLM local · RAG · YOLO · MediaPipe</text>
+    <text x="372" y="215" class="lbl">JUEGOS/3D</text>
+    <text x="498" y="215" class="val">Godot · Blender</text>
+    <text x="372" y="236" class="lbl">WEB</text>
+    <text x="498" y="236" class="val">Laravel · PHP · JavaScript</text>
+    <text x="372" y="257" class="lbl">ESTADO</text>
+    <text x="498" y="257" class="val">Abierto a colaborar · Bolivia<tspan class="blink"> ▌</tspan></text>
 
     <!-- Barra de análisis, sincronizada con el ciclo de la retícula -->
     <text x="372" y="282" class="lbl" font-size="11">ANÁLISIS</text>
