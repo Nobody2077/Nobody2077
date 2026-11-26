@@ -94,6 +94,28 @@ Construyo apps Android y experiencias interactivas.
 
 ## <img src="https://api.iconify.design/tabler/tools.svg?color=%233D9DB8" width="24" align="top"> En desarrollo
 
+### <img src="https://api.iconify.design/tabler/skull.svg?color=%233D9DB8" width="20" align="top"> Daemon · El asistente que vigila tu aula Moodle
+
+Para universitarios que **trabajan y estudian**: Daemon vigila tu aula virtual desde tu PC y te avisa por
+**Telegram** cuando el docente sube una tarea o cambia una fecha. Si ya tienes tu trabajo listo, lo entregas
+desde el celular, pero **nada se entrega sin tu aprobación**: te llega la captura y tú decides con ✅ o ❌.
+
+<p align="center">
+  <img src="./proyectos/daemon.svg" width="100%" alt="Daemon: avisos por Telegram, aprobación de entregas con captura e IA conectada por MCP">
+</p>
+
+- **Elige tu IA:** es un servidor **MCP**, así que funciona con Claude, Gemini CLI, GitHub Copilot, Codex o una IA local.
+- **Puerta de aprobación humana:** la IA puede preparar una entrega, pero solo tu botón en Telegram la guarda.
+- **Sesión siempre viva:** latido cada 15 min y reingreso automático con Google, sin guardar contraseñas.
+- **Vigilante:** compara tu línea de tiempo cada 30 min y avisa solo de lo nuevo.
+- Modo **simulacro** para probar con tareas reales sin riesgo, y funciona con cualquier tema visual de Moodle.
+
+**Tecnologías:** Node.js · Playwright · MCP · Telegram Bot API
+
+[![Ver repositorio](https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github)](https://github.com/Nobody2077/aula-daemon)
+
+---
+
 ### <img src="https://api.iconify.design/tabler/message-chatbot.svg?color=%233D9DB8" width="20" align="top"> Tami · Asistente virtual con IA local
 
 Orientadora vocacional con **avatar 3D y voz** que conversa con los postulantes por micrófono o teclado.
